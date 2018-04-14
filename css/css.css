@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.fuul{
+	height: 100vh;
+}
+
+.main{
+	height: 400px;
+	width: 400px;
+	background: yellow;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.cub{
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.cubik1{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	right: 0;
+	visibility: hidden;
+	background: yellow;
+	
+
+}
+.cubik2{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	margin-right: 100px;
+	visibility: hidden;
+	background: yellow;
+	right: 0;
+	
+}
+
+.loader {
+  width: 100px;
+  height: 100px;
+  animation: loader 0.1s 100000 linear;
+}
+
+@keyframes loader {
+  0% {transform:rotate(-45deg)}
+  50%{transform:rotate(-135deg)}
+  100%{transform:rotate(-225deg)}}
